@@ -3,7 +3,7 @@ SMS_Bomber
 
 Rapid SMS sending utility using SMTP relays.
 
-Requirements: .NET Framwork 4.5+
+Requirements: .NET Framework 4.5+
 
 1. Upload a list of SMS gateways you will use to send
 a text message to the target. e.g. txt.att.net for AT&T.
