@@ -3,7 +3,12 @@ SMS_Bomber
 
 Rapid SMS sending utility using SMTP relays.
 
-Requirements: .NET Framework 4.5+
+Requirements: 
+.NET Framework 4.5+
+
+Considerations:
+You may need to temporarily disable your Firewall, AV, and/or HIPS as this makes API
+hooks that rapidly send out SMTP mail that may be perceived as an infected spambot.
 
 1. Upload a list of SMS gateways you will use to send
 a text message to the target. e.g. txt.att.net for AT&T.
@@ -28,6 +33,8 @@ a two party consent and agreement may be illegal.
 
 LICENSING: Copyright (C) 2013 DENNIS CHOW dchow[AT]xtecsystems.com. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
 DISCLAIMER: The author takes no responsibility of how anyone else may use this software. It is intended as a proof of concept for educational purposes ONLY.
+
+
 Version 3, 29 June 2007
 Copyright © 2007 Free Software Foundation, Inc. <http://fsf.org/>
 Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
@@ -42,6 +49,7 @@ For the developers' and authors' protection, the GPL clearly explains that there
 Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users' freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.
 Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.
 The precise terms and conditions for copying, distribution and modification follow.
+
 TERMS AND CONDITIONS
 0. Definitions.
 “This License” refers to version 3 of the GNU General Public License.
